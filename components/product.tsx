@@ -142,6 +142,7 @@ export default function Product() {
         numColumns={2}
         columnWrapperStyle={{ justifyContent: "space-between" }}
         scrollEnabled={false}
+        style={{padding: 10}}
       />
       <Button title="See All" onPress={handleShowAll} />
     </View>
